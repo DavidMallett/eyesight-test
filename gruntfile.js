@@ -9,6 +9,19 @@ grunt.initConfig({
       // Path to appium executable, default:'appium' 
       appiumPath: 'appium'
     },
+
+    proof1: {
+      src: [
+
+      ],
+      options: {
+        deviceName: 'Android Emulator',
+        platformName: 'Android',
+        version: '5.1',
+        
+      }
+    }
+
     iphone: {
       src: ['test/*.js'],
       options: {
@@ -24,3 +37,5 @@ grunt.initConfig({
     }
   }
 });
+
+grunt.loadNpmTasks('grunt-mocha-appium');
