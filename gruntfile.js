@@ -12,13 +12,13 @@ grunt.initConfig({
 
     proof1: {
       src: [
-
+        '/proof/one.js',
       ],
       options: {
         deviceName: 'Android Emulator',
         platformName: 'Android',
         version: '5.1',
-        
+        app: '/Users/david/Downloads/mobile-staging-release.apk'
       }
     }
 
