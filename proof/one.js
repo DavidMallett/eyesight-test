@@ -13,16 +13,11 @@ var desired = {
 	platformName: "Android",
 	platformVersion: "5.1",
 	deviceName: "Android Emulator",
-	app: "/Users/david/Downloads/mobile-staging-release.apk",
-	"app-package": "",
-	"app-activity": ""
+	app: "/Users/david/Downloads/mobile-development-release.apk"
 };
 
 var browser = wd.promiseChainRemote("0.0.0.0", 4723);
 
+describe()
 browser.init(desired).then(function() {
-	return browser
-		.fin(function() {
-			return browser.quit();
-		});
-}).done();
+	done();

@@ -18,7 +18,7 @@ grunt.initConfig({
         deviceName: 'Android Emulator',
         platformName: 'Android',
         version: '5.1',
-        app: '/Users/david/Downloads/mobile-staging-release.apk'
+        app: '/Users/david/Downloads/mobile-development-release.apk'
       }
     }
 
