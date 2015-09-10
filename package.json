@@ -4,7 +4,8 @@
   "description": "test suite for eyesight",
   "main": "gruntfile.js",
   "dependencies": {
-    "grunt-mocha-appium": "^0.4.0"
+    "grunt-mocha-appium": "^0.4.0",
+    "mocha": "^2.3.2"
   },
   "devDependencies": {},
   "scripts": {
